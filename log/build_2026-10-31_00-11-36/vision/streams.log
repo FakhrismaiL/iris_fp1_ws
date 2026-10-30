@@ -1,0 +1,23 @@
+[0.029s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fakhrismail_/iris_fp1_ws/build/vision -- -j16 -l16
+[0.092s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.704s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.781s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.806s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.071s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.075s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.462s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.619s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.912s] -- Configuring done (1.8s)
+[1.944s] -- Generating done (0.0s)
+[1.953s] -- Build files have been written to: /home/fakhrismail_/iris_fp1_ws/build/vision
+[2.037s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[2.508s] [01m[K/home/fakhrismail_/iris_fp1_ws/src/vision/src/vision_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[2.508s]     3 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[2.509s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.509s] compilation terminated.
+[2.516s] gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+[2.516s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+[2.517s] gmake: *** [Makefile:146: all] Error 2

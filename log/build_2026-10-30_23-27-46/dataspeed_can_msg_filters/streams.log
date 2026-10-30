@@ -1,0 +1,28 @@
+[0.143s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/dataspeed_can_msg_filters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dataspeed_can/dataspeed_can_msg_filters -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/dataspeed_can_msg_filters
+[0.313s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.314s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.314s]   CMake.
+[0.314s] 
+[0.314s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.314s]   CMake that the project does not need compatibility with older versions.
+[0.315s] 
+[0.315s] [0m
+[0.326s] -- Configuring incomplete, errors occurred!
+[0.327s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.327s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.328s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.328s]   CMake did not find one.
+[0.328s] 
+[0.328s]   Could not find a package configuration file provided by "catkin" with any
+[0.328s]   of the following names:
+[0.328s] 
+[0.329s]     catkinConfig.cmake
+[0.329s]     catkin-config.cmake
+[0.329s] 
+[0.329s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.330s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.330s]   provides a separate development package or SDK, be sure it has been
+[0.330s]   installed.
+[0.330s] 
+[0.332s] [0m
+[0.449s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/dataspeed_can_msg_filters' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dataspeed_can/dataspeed_can_msg_filters -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/dataspeed_can_msg_filters

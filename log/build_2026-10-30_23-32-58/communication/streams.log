@@ -1,0 +1,12 @@
+[0.035s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fakhrismail_/iris_fp1_ws/build/communication -- -j16 -l16
+[0.091s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.652s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.870s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.870s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.870s]   before
+[0.871s] Call Stack (most recent call first):
+[0.871s]   CMakeLists.txt:27 (ament_target_dependencies)
+[0.871s] 
+[0.871s] [0m
+[0.871s] -- Configuring incomplete, errors occurred!
+[0.876s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1

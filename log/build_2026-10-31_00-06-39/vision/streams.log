@@ -1,0 +1,10 @@
+[0.024s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fakhrismail_/iris_fp1_ws/build/vision -- -j16 -l16
+[0.137s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[0.614s] [01m[K/home/fakhrismail_/iris_fp1_ws/src/vision/src/vision_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[0.614s]     3 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[0.615s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.615s] compilation terminated.
+[0.622s] gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+[0.622s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+[0.623s] gmake: *** [Makefile:146: all] Error 2
+[0.628s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fakhrismail_/iris_fp1_ws/build/vision -- -j16 -l16
