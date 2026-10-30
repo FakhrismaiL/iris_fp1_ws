@@ -1,0 +1,28 @@
+[0.109s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/dbw_mkz_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dbw_mkz_ros/dbw_mkz_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/dbw_mkz_description
+[0.258s] -- Configuring incomplete, errors occurred!
+[0.258s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.259s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.260s]   CMake.
+[0.260s] 
+[0.261s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.262s]   CMake that the project does not need compatibility with older versions.
+[0.263s] 
+[0.263s] [0m
+[0.264s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.264s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.265s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.266s]   CMake did not find one.
+[0.266s] 
+[0.267s]   Could not find a package configuration file provided by "catkin" with any
+[0.268s]   of the following names:
+[0.268s] 
+[0.269s]     catkinConfig.cmake
+[0.270s]     catkin-config.cmake
+[0.271s] 
+[0.271s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.271s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.272s]   provides a separate development package or SDK, be sure it has been
+[0.272s]   installed.
+[0.272s] 
+[0.272s] [0m
+[0.363s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/dbw_mkz_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dbw_mkz_ros/dbw_mkz_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/dbw_mkz_description
