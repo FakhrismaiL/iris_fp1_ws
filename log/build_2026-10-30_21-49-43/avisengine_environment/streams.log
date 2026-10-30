@@ -1,0 +1,32 @@
+[0.103s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/avisengine_environment': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/avisengine_environment -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/avisengine_environment
+[0.394s] -- The C compiler identification is GNU 13.3.0
+[0.694s] -- The CXX compiler identification is GNU 13.3.0
+[0.753s] -- Detecting C compiler ABI info
+[1.111s] -- Detecting C compiler ABI info - done
+[1.148s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.150s] -- Detecting C compile features
+[1.153s] -- Detecting C compile features - done
+[1.182s] -- Detecting CXX compiler ABI info
+[1.533s] -- Detecting CXX compiler ABI info - done
+[1.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.571s] -- Detecting CXX compile features
+[1.573s] -- Detecting CXX compile features - done
+[1.630s] -- Configuring incomplete, errors occurred!
+[1.631s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.631s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.631s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.632s]   CMake did not find one.
+[1.632s] 
+[1.632s]   Could not find a package configuration file provided by "catkin" with any
+[1.633s]   of the following names:
+[1.633s] 
+[1.633s]     catkinConfig.cmake
+[1.633s]     catkin-config.cmake
+[1.633s] 
+[1.633s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.634s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.634s]   provides a separate development package or SDK, be sure it has been
+[1.634s]   installed.
+[1.634s] 
+[1.634s] [0m
+[1.695s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/avisengine_environment' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/avisengine_environment -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/avisengine_environment

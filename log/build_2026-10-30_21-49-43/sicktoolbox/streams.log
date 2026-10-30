@@ -1,0 +1,32 @@
+[0.127s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/sicktoolbox': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/sicktoolbox
+[0.446s] -- The C compiler identification is GNU 13.3.0
+[0.688s] -- The CXX compiler identification is GNU 13.3.0
+[0.761s] -- Detecting C compiler ABI info
+[1.157s] -- Detecting C compiler ABI info - done
+[1.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.205s] -- Detecting C compile features
+[1.206s] -- Detecting C compile features - done
+[1.226s] -- Detecting CXX compiler ABI info
+[1.527s] -- Detecting CXX compiler ABI info - done
+[1.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.565s] -- Detecting CXX compile features
+[1.567s] -- Detecting CXX compile features - done
+[1.624s] -- Configuring incomplete, errors occurred!
+[1.624s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[1.625s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.626s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.626s]   CMake did not find one.
+[1.626s] 
+[1.629s]   Could not find a package configuration file provided by "catkin" with any
+[1.629s]   of the following names:
+[1.630s] 
+[1.630s]     catkinConfig.cmake
+[1.631s]     catkin-config.cmake
+[1.632s] 
+[1.632s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.632s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.632s]   provides a separate development package or SDK, be sure it has been
+[1.633s]   installed.
+[1.633s] 
+[1.633s] [0m
+[1.654s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/sicktoolbox' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/sicktoolbox

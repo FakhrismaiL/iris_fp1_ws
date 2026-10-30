@@ -1,0 +1,40 @@
+[0.109s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/autonomous_vehicle_teb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/autonomous_vehicle_teb -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/autonomous_vehicle_teb
+[0.177s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.178s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.178s]   CMake.
+[0.178s] 
+[0.178s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.178s]   CMake that the project does not need compatibility with older versions.
+[0.178s] 
+[0.178s] [0m
+[0.405s] -- The C compiler identification is GNU 13.3.0
+[0.663s] -- The CXX compiler identification is GNU 13.3.0
+[0.732s] -- Detecting C compiler ABI info
+[1.058s] -- Detecting C compiler ABI info - done
+[1.108s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.109s] -- Detecting C compile features
+[1.110s] -- Detecting C compile features - done
+[1.146s] -- Detecting CXX compiler ABI info
+[1.479s] -- Detecting CXX compiler ABI info - done
+[1.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.571s] -- Detecting CXX compile features
+[1.573s] -- Detecting CXX compile features - done
+[1.615s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.616s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.616s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.616s]   CMake did not find one.
+[1.616s] 
+[1.617s]   Could not find a package configuration file provided by "catkin" with any
+[1.617s]   of the following names:
+[1.617s] 
+[1.618s]     catkinConfig.cmake
+[1.618s]     catkin-config.cmake
+[1.618s] 
+[1.618s] -- Configuring incomplete, errors occurred!
+[1.619s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.619s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.619s]   provides a separate development package or SDK, be sure it has been
+[1.619s]   installed.
+[1.619s] 
+[1.620s] [0m
+[1.704s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/autonomous_vehicle_teb' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/autonomous_vehicle_teb -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/autonomous_vehicle_teb

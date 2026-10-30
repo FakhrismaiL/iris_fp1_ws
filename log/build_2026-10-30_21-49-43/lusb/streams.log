@@ -1,0 +1,40 @@
+[0.143s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/lusb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/lusb -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/lusb
+[0.223s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.223s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.224s]   CMake.
+[0.224s] 
+[0.224s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.224s]   CMake that the project does not need compatibility with older versions.
+[0.224s] 
+[0.225s] [0m
+[0.483s] -- The C compiler identification is GNU 13.3.0
+[0.713s] -- The CXX compiler identification is GNU 13.3.0
+[0.790s] -- Detecting C compiler ABI info
+[1.116s] -- Detecting C compiler ABI info - done
+[1.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.197s] -- Detecting C compile features
+[1.202s] -- Detecting C compile features - done
+[1.237s] -- Detecting CXX compiler ABI info
+[1.598s] -- Detecting CXX compiler ABI info - done
+[1.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.661s] -- Detecting CXX compile features
+[1.661s] -- Detecting CXX compile features - done
+[1.704s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.704s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.704s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.704s]   CMake did not find one.
+[1.704s] 
+[1.705s]   Could not find a package configuration file provided by "catkin" with any
+[1.705s]   of the following names:
+[1.705s] 
+[1.705s]     catkinConfig.cmake
+[1.705s]     catkin-config.cmake
+[1.705s] 
+[1.705s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.705s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.706s]   provides a separate development package or SDK, be sure it has been
+[1.706s]   installed.
+[1.706s] 
+[1.706s] [0m
+[1.706s] -- Configuring incomplete, errors occurred!
+[1.775s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/lusb' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/lusb -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/lusb

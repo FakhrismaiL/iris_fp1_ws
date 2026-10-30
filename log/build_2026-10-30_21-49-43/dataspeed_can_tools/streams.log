@@ -1,0 +1,40 @@
+[0.123s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/dataspeed_can_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dataspeed_can/dataspeed_can_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/dataspeed_can_tools
+[0.191s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.191s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.191s]   CMake.
+[0.191s] 
+[0.191s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.191s]   CMake that the project does not need compatibility with older versions.
+[0.192s] 
+[0.192s] [0m
+[0.484s] -- The C compiler identification is GNU 13.3.0
+[0.710s] -- The CXX compiler identification is GNU 13.3.0
+[0.760s] -- Detecting C compiler ABI info
+[1.050s] -- Detecting C compiler ABI info - done
+[1.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.130s] -- Detecting C compile features
+[1.132s] -- Detecting C compile features - done
+[1.197s] -- Detecting CXX compiler ABI info
+[1.602s] -- Detecting CXX compiler ABI info - done
+[1.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.669s] -- Detecting CXX compile features
+[1.670s] -- Detecting CXX compile features - done
+[1.677s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.677s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.677s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.677s]   CMake did not find one.
+[1.677s] 
+[1.677s]   Could not find a package configuration file provided by "catkin" with any
+[1.677s]   of the following names:
+[1.678s] 
+[1.678s]     catkinConfig.cmake
+[1.678s]     catkin-config.cmake
+[1.678s] 
+[1.678s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.678s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.678s]   provides a separate development package or SDK, be sure it has been
+[1.678s]   installed.
+[1.679s] 
+[1.679s] [0m
+[1.679s] -- Configuring incomplete, errors occurred!
+[1.744s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/dataspeed_can_tools' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dataspeed_can/dataspeed_can_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/dataspeed_can_tools

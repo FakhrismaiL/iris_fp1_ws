@@ -1,0 +1,40 @@
+[0.114s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/obstaclestopper': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/obstaclestopper -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/obstaclestopper
+[0.181s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.181s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.182s]   CMake.
+[0.182s] 
+[0.182s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.182s]   CMake that the project does not need compatibility with older versions.
+[0.182s] 
+[0.182s] [0m
+[0.413s] -- The C compiler identification is GNU 13.3.0
+[0.720s] -- The CXX compiler identification is GNU 13.3.0
+[0.779s] -- Detecting C compiler ABI info
+[1.104s] -- Detecting C compiler ABI info - done
+[1.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.166s] -- Detecting C compile features
+[1.167s] -- Detecting C compile features - done
+[1.236s] -- Detecting CXX compiler ABI info
+[1.565s] -- Detecting CXX compiler ABI info - done
+[1.613s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.613s] -- Detecting CXX compile features
+[1.618s] -- Detecting CXX compile features - done
+[1.658s] -- Configuring incomplete, errors occurred!
+[1.658s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[1.659s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.659s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.659s]   CMake did not find one.
+[1.659s] 
+[1.659s]   Could not find a package configuration file provided by "catkin" with any
+[1.659s]   of the following names:
+[1.659s] 
+[1.659s]     catkinConfig.cmake
+[1.660s]     catkin-config.cmake
+[1.660s] 
+[1.660s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.660s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.660s]   provides a separate development package or SDK, be sure it has been
+[1.660s]   installed.
+[1.660s] 
+[1.660s] [0m
+[1.716s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/obstaclestopper' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/obstaclestopper -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/obstaclestopper

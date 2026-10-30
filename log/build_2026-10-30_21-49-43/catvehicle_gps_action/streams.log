@@ -1,0 +1,40 @@
+[0.097s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/catvehicle_gps_action': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/catvehicle_gps_action -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/catvehicle_gps_action
+[1.596s] -- The C compiler identification is GNU 13.3.0
+[1.597s] -- The CXX compiler identification is GNU 13.3.0
+[1.597s] -- Detecting C compiler ABI info
+[1.597s] -- Detecting C compiler ABI info - done
+[1.597s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.598s] -- Detecting C compile features
+[1.598s] -- Detecting C compile features - done
+[1.598s] -- Detecting CXX compiler ABI info
+[1.598s] -- Detecting CXX compiler ABI info - done
+[1.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.599s] -- Detecting CXX compile features
+[1.599s] -- Detecting CXX compile features - done
+[1.599s] -- Configuring incomplete, errors occurred!
+[1.603s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.603s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.603s]   CMake.
+[1.603s] 
+[1.603s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.603s]   CMake that the project does not need compatibility with older versions.
+[1.603s] 
+[1.603s] [0m
+[1.604s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[1.604s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.604s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.604s]   CMake did not find one.
+[1.604s] 
+[1.604s]   Could not find a package configuration file provided by "catkin" with any
+[1.605s]   of the following names:
+[1.605s] 
+[1.605s]     catkinConfig.cmake
+[1.605s]     catkin-config.cmake
+[1.605s] 
+[1.605s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.605s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.605s]   provides a separate development package or SDK, be sure it has been
+[1.605s]   installed.
+[1.606s] 
+[1.606s] [0m
+[1.634s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/catvehicle_gps_action' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/catvehicle_gps_action -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/catvehicle_gps_action

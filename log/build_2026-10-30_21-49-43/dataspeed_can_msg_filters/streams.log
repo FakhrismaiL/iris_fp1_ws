@@ -1,0 +1,39 @@
+[0.138s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/dataspeed_can_msg_filters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dataspeed_can/dataspeed_can_msg_filters -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/dataspeed_can_msg_filters
+[0.209s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.210s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.210s]   CMake.
+[0.210s] 
+[0.210s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.210s]   CMake that the project does not need compatibility with older versions.
+[0.211s] 
+[0.211s] [0m
+[0.496s] -- The C compiler identification is GNU 13.3.0
+[0.759s] -- The CXX compiler identification is GNU 13.3.0
+[0.839s] -- Detecting C compiler ABI info
+[1.195s] -- Detecting C compiler ABI info - done
+[1.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.252s] -- Detecting C compile features
+[1.254s] -- Detecting C compile features - done
+[1.293s] -- Detecting CXX compiler ABI info
+[1.653s] -- Detecting CXX compiler ABI info - done
+[1.706s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.706s] -- Detecting CXX compile features
+[1.707s] -- Detecting CXX compile features - done
+[1.738s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.739s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.739s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.739s]   CMake did not find one.
+[1.740s] 
+[1.740s]   Could not find a package configuration file provided by "catkin" with any
+[1.740s]   of the following names:
+[1.740s] 
+[1.741s]     catkinConfig.cmake
+[1.741s]     catkin-config.cmake
+[1.742s] 
+[1.743s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.743s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.743s]   provides a separate development package or SDK, be sure it has been
+[1.744s]   installed.
+[1.744s] 
+[1.744s] [0m
+[1.744s] -- Configuring incomplete, errors occurred!
