@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.001458] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.001763] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.001833] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.001914] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.001964] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.002258] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.002338] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.002371] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.002399] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.002429] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.002483] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.002515] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.002540] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.002567] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.002593] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.002619] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.002646] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.002673] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.002702] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.002744] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.002811] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.002840] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.003046] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.003084] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.003111] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.003139] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.003170] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.003198] (-) JobUnselected: {'identifier': 'lusb'}
+[0.003222] (-) JobUnselected: {'identifier': 'master'}
+[0.003250] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.003276] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.003330] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.003357] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.003387] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.003418] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.003447] (-) JobUnselected: {'identifier': 'vision'}
+[0.003645] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.003689] (communication) JobStarted: {'identifier': 'communication'}
+[0.019320] (communication) JobProgress: {'identifier': 'communication', 'progress': 'cmake'}
+[0.020920] (communication) JobProgress: {'identifier': 'communication', 'progress': 'build'}
+[0.022817] (communication) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fakhrismail_/iris_fp1_ws/build/communication', '--', '-j16', '-l16'], 'cwd': '/home/fakhrismail_/iris_fp1_ws/build/communication', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fakhrismail_', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fakhrismail_', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'TERM_PROGRAM_VERSION': '1.142.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2462', 'SYSTEMD_EXEC_PID': '2939', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11822', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fakhrismail_', 'JOURNAL_STREAM': '10:11108', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fakhrismail_', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/FakhrismaiL-LOQ-15IRX9:@/tmp/.ICE-unix/2897,unix/FakhrismaiL-LOQ-15IRX9:/tmp/.ICE-unix/2897', 'INVOCATION_ID': 'a0b7dfa2e714487da128401b4cdadbe5', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fakhrismail_/iris_fp1_ws/build/communication', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/fakhrismail_/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.083579] (communication) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.098823] (-) TimerEvent: {}
+[0.199391] (-) TimerEvent: {}
+[0.299891] (-) TimerEvent: {}
+[0.400425] (-) TimerEvent: {}
+[0.500965] (-) TimerEvent: {}
+[0.601511] (-) TimerEvent: {}
+[0.618332] (communication) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.701699] (-) TimerEvent: {}
+[0.802311] (-) TimerEvent: {}
+[0.863797] (communication) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[0.864765] (communication) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'rclcpp' was not found\n"}
+[0.864961] (communication) StderrLine: {'line': b'  before\n'}
+[0.865121] (communication) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.865270] (communication) StderrLine: {'line': b'  CMakeLists.txt:27 (ament_target_dependencies)\n'}
+[0.865419] (communication) StderrLine: {'line': b'\n'}
+[0.865572] (communication) StderrLine: {'line': b'\x1b[0m\n'}
+[0.865717] (communication) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.870861] (communication) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[0.875907] (communication) CommandEnded: {'returncode': 2}
+[0.898526] (communication) JobEnded: {'identifier': 'communication', 'rc': 2}
+[0.902432] (-) TimerEvent: {}
+[0.910122] (-) EventReactorShutdown: {}

@@ -23,4 +23,12 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(udp_sender_node src/udp_sender_node.cpp)
+ament_target_dependencies(udp_sender_node rclcpp std_msgs)
+
+install(TARGETS
+  udp_sender_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()
