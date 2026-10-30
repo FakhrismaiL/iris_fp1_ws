@@ -1,0 +1,28 @@
+[0.138s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/lusb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/lusb -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/lusb
+[0.270s] -- Configuring incomplete, errors occurred!
+[0.285s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.286s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.286s]   CMake.
+[0.286s] 
+[0.287s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.287s]   CMake that the project does not need compatibility with older versions.
+[0.287s] 
+[0.287s] [0m
+[0.287s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.289s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.289s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.289s]   CMake did not find one.
+[0.291s] 
+[0.291s]   Could not find a package configuration file provided by "catkin" with any
+[0.292s]   of the following names:
+[0.292s] 
+[0.292s]     catkinConfig.cmake
+[0.293s]     catkin-config.cmake
+[0.293s] 
+[0.293s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.293s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.293s]   provides a separate development package or SDK, be sure it has been
+[0.293s]   installed.
+[0.294s] 
+[0.295s] [0m
+[0.357s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/lusb' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/lusb -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/lusb

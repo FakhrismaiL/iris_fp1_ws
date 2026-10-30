@@ -1,0 +1,19 @@
+[0.153s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fakhrismail_/iris_fp1_ws/build/communication -- -j16 -l16
+[0.302s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fakhrismail_/iris_fp1_ws/build/communication -- -j16 -l16
+[0.321s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fakhrismail_/iris_fp1_ws/build/communication
+[0.339s] -- Install configuration: ""
+[0.340s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+[0.341s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+[0.341s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.sh
+[0.341s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.dsv
+[0.342s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/environment/path.sh
+[0.342s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/environment/path.dsv
+[0.342s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/local_setup.bash
+[0.342s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/local_setup.sh
+[0.342s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/local_setup.zsh
+[0.342s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/local_setup.dsv
+[0.342s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/package.dsv
+[0.343s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/ament_index/resource_index/packages/communication
+[0.343s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig.cmake
+[0.343s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig-version.cmake
+[0.343s] -- Installing: /home/fakhrismail_/iris_fp1_ws/install/communication/share/communication/package.xml

@@ -1,0 +1,20 @@
+[0.139s] Invoking command in '/home/fakhrismail_/iris_fp1_ws/build/sicktoolbox': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/sicktoolbox
+[0.292s] -- Configuring incomplete, errors occurred!
+[0.294s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.294s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.294s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.294s]   CMake did not find one.
+[0.295s] 
+[0.295s]   Could not find a package configuration file provided by "catkin" with any
+[0.295s]   of the following names:
+[0.295s] 
+[0.295s]     catkinConfig.cmake
+[0.295s]     catkin-config.cmake
+[0.296s] 
+[0.296s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.296s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.296s]   provides a separate development package or SDK, be sure it has been
+[0.296s]   installed.
+[0.296s] 
+[0.296s] [0m
+[0.341s] Invoked command in '/home/fakhrismail_/iris_fp1_ws/build/sicktoolbox' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fakhrismail_/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fakhrismail_/iris_fp1_ws/install/sicktoolbox
