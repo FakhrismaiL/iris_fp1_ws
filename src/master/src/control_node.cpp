@@ -1,36 +1,27 @@
-#include <chrono>
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/int32.hpp"
-
-using namespace std::chrono_literals;
+#include "geometry_msgs/msg/twist.hpp"
 
 class ControlNode : public rclcpp::Node {
 public:
     ControlNode() : Node("control_node") {
-        motor_pub_ = this->create_publisher<std_msgs::msg::Int32>("/control/motor_pwm", 10);
-        steering_pub_ = this->create_publisher<std_msgs::msg::Int32>("/control/steering_degree", 10);
-
+        cmd_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/catvehicle/cmd_vel", 10);
         timer_ = this->create_wall_timer(
-            50ms, std::bind(&ControlNode::control_loop, this));
-        
-        RCLCPP_INFO(this->get_node_logger(), "Control & Kinematics Node Initialized!");
+            std::chrono::milliseconds(50), std::bind(&ControlNode::control_loop, this));
+        RCLCPP_INFO(this->get_logger(), "Control Node Initialized & Connected to /cmd_vel!");
     }
 
 private:
     void control_loop() {
-        std_msgs::msg::Int32 motor_msg;
-        std_msgs::msg::Int32 steering_msg;
+        auto twist_msg = geometry_msgs::msg::Twist();
+        
+        twist_msg.linear.x = 1.5; 
+        twist_msg.angular.z = 0.0;
 
-        motor_msg.data = 120;
-        steering_msg.data = 0;
-
-        motor_pub_->publish(motor_msg);
-        steering_pub_->publish(steering_msg);
+        cmd_pub_->publish(twist_msg);
     }
 
-    rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr motor_pub_;
-    rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr steering_pub_;
-    rclcpp::TimerBase::timer_ptr_ timer_;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_pub_;
+    rclcpp::TimerBase::SharedPtr timer_;
 };
 
 int main(int argc, char* argv[]) {
